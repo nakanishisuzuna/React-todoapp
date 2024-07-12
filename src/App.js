@@ -9,6 +9,7 @@ function App() {
   const [filter, setFilter] = useState({ id: "", status: "", deadline: "" });
   const [sort, setSort] = useState({ field: "", order: "asc" });
 
+  
   const handleAddTodo = (newTodo) => {
     const now = new Date();
     const todoWithDates = {
